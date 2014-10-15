@@ -1,3 +1,3 @@
 UIImageView *{name} = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"{name}"]];{~n}
 [{name} setTranslatesAutoresizingMaskIntoConstraints:NO];{~n}
-[superView addSubview:{name}];
+[{options.superviewName} addSubview:{name}];
